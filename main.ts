@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const line =
-  "IsmaLove spent the night chasing a $0.50 bounty, finished the code, then watched the task close because she waited 18 minutes for a yes.";
+  "IsmaLove copied README.md into entry.txt to test the writer, then forgot to replace it; the submission was a memoir with badges.";
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
 fs.mkdirSync(outputDir, { recursive: true });
